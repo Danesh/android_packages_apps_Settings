@@ -431,7 +431,6 @@
     <string name="status_bar_battery_status_circle_percentage">Круг з процентами</string>
     <string name="status_bar_notif_count_title">Лічильник сповіщень</string>
     <string name="status_bar_notif_count_summary">Показувати кількість нових сповіщень в рядку стану</string>
-    <string name="display_category_wakeup_options_title">Налаштування пробудження</string>
     <string name="pref_volume_wake_title">Пробудження гучністю</string>
     <string name="pref_volume_wake_summary">Натиск на кнопки гучності пробуджує пристрій. Призначено для пристроїв з незручною кнопкою живлення</string>
     <string name="adb_notify">Сповіщення про відладку по USB</string>

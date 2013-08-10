@@ -471,7 +471,6 @@
     <string name="status_bar_battery_status_circle_percentage">Sirkel med prosent</string>
     <string name="status_bar_notif_count_title">Vis antall varslinger</string>
     <string name="status_bar_notif_count_summary">Vis antall ventende varslinger</string>
-    <string name="display_category_wakeup_options_title">Vekke-innstillinger</string>
     <string name="pref_volume_wake_title">Vekk med volumknapper</string>
     <string name="pref_volume_wake_summary">Ved å trykke på en volumtast, vil du vekke enheten</string>
     <string name="adb_notify">Varsel ved USB-debugging</string>

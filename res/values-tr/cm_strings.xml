@@ -471,7 +471,6 @@
     <string name="status_bar_battery_status_circle_percentage">Yüzde ile çember</string>
     <string name="status_bar_notif_count_title">Bildirim sayısını gösteren</string>
     <string name="status_bar_notif_count_summary">Bekleyen bildirim sayısını göster</string>
-    <string name="display_category_wakeup_options_title">Uyanma ayarları</string>
     <string name="pref_volume_wake_title">Ses tuşuyla uyanma</string>
     <string name="pref_volume_wake_summary">Ses tuşlarında yukarı/aşağı basmak cihazı uyandırır</string>
     <string name="adb_notify">USB hata ayıklama bildirimi</string>

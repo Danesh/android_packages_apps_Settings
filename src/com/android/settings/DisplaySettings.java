@@ -63,9 +63,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_WIFI_DISPLAY = "wifi_display";
     private static final String KEY_DISPLAY_ROTATION = "display_rotation";
     private static final String KEY_LOCKSCREEN_ROTATION = "lockscreen_rotation";
-    private static final String KEY_WAKEUP_CATEGORY = "category_wakeup_options";
-    private static final String KEY_HOME_WAKE = "pref_home_wake";
-    private static final String KEY_VOLUME_WAKE = "pref_volume_wake";
     private static final String KEY_SCREEN_OFF_ANIMATION = "screen_off_animation";
     private static final String KEY_DISPLAY_COLOR = "color_calibration";
     private static final String KEY_WAKE_WHEN_PLUGGED_OR_UNPLUGGED = "wake_when_plugged_or_unplugged";
@@ -80,8 +77,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
     private DisplayManager mDisplayManager;
 
-    private CheckBoxPreference mHomeWake;
-    private CheckBoxPreference mVolumeWake;
     private CheckBoxPreference mWakeWhenPluggedOrUnplugged;
     private PreferenceScreen mDisplayRotationPreference;
     private WarnedListPreference mFontSizePref;
@@ -158,40 +153,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                 == WifiDisplayStatus.FEATURE_STATE_UNAVAILABLE) {
             getPreferenceScreen().removePreference(mWifiDisplayPreference);
             mWifiDisplayPreference = null;
-        }
-
-        // Start the wake-up category handling
-        boolean removeWakeupCategory = true;
-        PreferenceCategory wakeupCategory = (PreferenceCategory)
-                    findPreference(KEY_WAKEUP_CATEGORY);
-        // Home button wake
-        mHomeWake = (CheckBoxPreference) findPreference(KEY_HOME_WAKE);
-        if (mHomeWake != null) {
-            if (!res.getBoolean(R.bool.config_show_homeWake)) {
-                wakeupCategory.removePreference(mHomeWake);
-            } else {
-                mHomeWake.setChecked(Settings.System.getInt(resolver,
-                        Settings.System.HOME_WAKE_SCREEN, 1) == 1);
-                removeWakeupCategory = false;
-            }
-        }
-
-        // Volume rocker wake
-        mVolumeWake = (CheckBoxPreference) findPreference(KEY_VOLUME_WAKE);
-        if (mVolumeWake != null) {
-            if (!res.getBoolean(R.bool.config_show_volumeRockerWake)
-                    || !Utils.hasVolumeRocker(getActivity())) {
-                wakeupCategory.removePreference(mVolumeWake);
-            } else {
-                mVolumeWake.setChecked(Settings.System.getInt(resolver,
-                        Settings.System.VOLUME_WAKE_SCREEN, 0) == 1);
-                removeWakeupCategory = false;
-            }
-        }
-
-        // Remove the wake-up category if neither of the two items above are enabled
-        if (removeWakeupCategory) {
-            getPreferenceScreen().removePreference(wakeupCategory);
         }
 
         mScreenOffAnimation = (CheckBoxPreference) findPreference(KEY_SCREEN_OFF_ANIMATION);
@@ -447,15 +408,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-        if (preference == mHomeWake) {
-            Settings.System.putInt(getContentResolver(), Settings.System.HOME_WAKE_SCREEN,
-                    mHomeWake.isChecked() ? 1 : 0);
-            return true;
-        } else if (preference == mVolumeWake) {
-            Settings.System.putInt(getContentResolver(), Settings.System.VOLUME_WAKE_SCREEN,
-                    mVolumeWake.isChecked() ? 1 : 0);
-            return true;
-        } else if (preference == mScreenOffAnimation) {
+        if (preference == mScreenOffAnimation) {
             Settings.System.putInt(getContentResolver(), Settings.System.SCREEN_OFF_ANIMATION,
                     mScreenOffAnimation.isChecked() ? 1 : 0);
             return true;

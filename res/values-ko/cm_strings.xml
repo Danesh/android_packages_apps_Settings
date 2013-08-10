@@ -403,7 +403,6 @@
     <string name="status_bar_battery_status_circle_percentage">원과 백분율</string>
     <string name="status_bar_notif_count_title">알림 개수 표시</string>
     <string name="status_bar_notif_count_summary">대기중인 알림의 개수를 표시</string>
-    <string name="display_category_wakeup_options_title">화면 켜기</string>
     <string name="pref_volume_wake_title">볼륨 버튼으로 켜기</string>
     <string name="pref_volume_wake_summary">위/아래 볼륨 버튼을 눌러 화면 켜기</string>
     <string name="adb_notify">USB 디버깅 알림</string>

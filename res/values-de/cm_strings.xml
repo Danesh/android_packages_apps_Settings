@@ -457,7 +457,6 @@
     <string name="status_bar_battery_status_circle_percentage">Kreis &amp; Prozent</string>
     <string name="status_bar_notif_count_title">Benachrichtigungszähler</string>
     <string name="status_bar_notif_count_summary">Anzahl der ungelesenen Benachrichtigungen in der Statusleiste anzeigen</string>
-    <string name="display_category_wakeup_options_title">Aufweckoptionen</string>
     <string name="pref_home_wake_title">Home-Taste</string>
     <string name="pref_home_wake_summary">Gerät durch Drücken der Home-Taste aufwecken</string>
     <string name="pref_volume_wake_title">Lautstärketaste</string>

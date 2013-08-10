@@ -489,7 +489,6 @@
     <string name="status_bar_battery_status_circle_percentage">Κύκλος με ποσοστό</string>
     <string name="status_bar_notif_count_title">Εμφ. αριθμού ειδοποιήσεων</string>
     <string name="status_bar_notif_count_summary">Εμφάνιση του αριθμού των ειδοποιήσεων που εκκρεμούν στη μπάρα κατάστασης</string>
-    <string name="display_category_wakeup_options_title">Επιλογές αφύπνισης</string>
     <string name="pref_home_wake_title">Πλήκτρο home</string>
     <string name="pref_home_wake_summary">Αφύπνιση της συσκευής κατά το πάτημα του πλήκτρου home</string>
     <string name="pref_volume_wake_title">Πληκτρα έντασης</string>

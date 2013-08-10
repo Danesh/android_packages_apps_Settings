@@ -438,7 +438,6 @@
     <string name="status_bar_battery_status_circle_percentage">Apvalus su procentais</string>
     <string name="status_bar_notif_count_title">Rodyti įspėjimų skaičių</string>
     <string name="status_bar_notif_count_summary">Rodyti neperžiūrėtų įspėjimų skaičių</string>
-    <string name="display_category_wakeup_options_title">Žadinimas</string>
     <string name="pref_volume_wake_title">Žadinti garso mygtukais</string>
     <string name="pref_volume_wake_summary">Garso mygtukais pažadinamas įrenginys</string>
     <string name="adb_notify">USB derinimo įspėjimas</string>

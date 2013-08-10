@@ -456,7 +456,6 @@
     <string name="status_bar_battery_status_circle_percentage">Sirkel met persentasie</string>
     <string name="status_bar_notif_count_title">Kennisgewingstelling</string>
     <string name="status_bar_notif_count_summary">Vertoon die aantal uitstaande kennisgewings</string>
-    <string name="display_category_wakeup_options_title">Wakkermaakopsies</string>
     <string name="pref_home_wake_title">Tuis-knoppie</string>
     <string name="pref_home_wake_summary">Druk van die Tuis-knoppie sal jou toestel wakker maak</string>
     <string name="pref_volume_wake_title">Volume-knoppie</string>

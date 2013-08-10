@@ -439,7 +439,6 @@
     <string name="status_bar_battery_status_circle_percentage">מעגל עם אחוזים</string>
     <string name="status_bar_notif_count_title">הצג מונה התראות</string>
     <string name="status_bar_notif_count_summary">הצג את מספר ההתראות הממתינות בכל יישום</string>
-    <string name="display_category_wakeup_options_title">אפשרויות התעוררות</string>
     <string name="pref_volume_wake_title">התעוררות באמצעות מקשי הקול</string>
     <string name="pref_volume_wake_summary">לחיצה על מקשי הקול למעלה/למטה תעיר את המכשיר</string>
     <string name="adb_notify">התראת ניקוי באגים</string>
