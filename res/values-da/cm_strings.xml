@@ -602,7 +602,6 @@
     <string name="auto_brightness_help_text"><b>Hvordan beregnes lysstyrke?</b></string>
     <string name="advanced_reboot_title">Avanceret genstart</string>
     <string name="advanced_reboot_summary">Ved frakobling vises muligheder i strømmenuen for genstart til recovery eller bootloader</string>
-    <string name="navigation_bar_category">Navigationslinje</string>
     <string name="navigation_ring_title">Genveje til hurtig start</string>
     <string name="navring_target_reset_message">Slet alle brugeroprettede genveje til navigationslinje og gendan til standard?</string>
     <string name="navring_target_reset">Genveje til navigationslinje nulstillet til standard</string>

@@ -573,7 +573,6 @@
     <string name="root_access_apps">Slegs programme</string>
     <string name="root_access_adb">Slegs ADB</string>
     <string name="root_access_all">Programme en ADB</string>
-    <string name="navigation_bar_category">Navigasiebalk</string>
     <string name="navigation_ring_title">Kits-loodskortpaaie</string>
     <string name="navring_target_reset_message">Verwyder alle gebruiker kits-loodskortpaaie en herstel na standaard?</string>
     <string name="navring_target_reset">Navigasiebalk kits-loodskortpaaie is herstel na standaard.</string>

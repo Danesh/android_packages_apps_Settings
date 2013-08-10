@@ -897,7 +897,6 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery or bootloader</string>
 
     <!-- Navigation bar buttons and shortcuts category title -->
-    <string name="navigation_bar_category">Navigation bar</string>
 
     <!-- Navigation ring shortcuts -->
     <string name="navigation_ring_title">Quick launch shortcuts</string>

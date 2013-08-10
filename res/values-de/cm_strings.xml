@@ -654,7 +654,6 @@ Mittels \"Entfernen\" kann die ausgewählte Stützstelle aus dem Helligkeitsverl
     <string name="volume_adjust_sounds_enable_summary">Beim Anpassen der Lautstärke mit den Lautstärketasten einen Ton abspielen</string>
     <string name="lockpattern_settings_enable_error_path_title">Fehler anzeigen</string>
     <string name="lockpattern_settings_enable_dots_title">Punkte anzeigen</string>
-    <string name="navigation_bar_category">Navigationsleiste</string>
     <string name="navigation_ring_title">Schnellstart-Verknüpfungen</string>
     <string name="navring_target_reset_message">Schnellstart-Verknüpfungen auf Standard zurücksetzen?</string>
     <string name="navring_target_reset">Schnellstart-Verknüpfungen zurückgesetzt</string>

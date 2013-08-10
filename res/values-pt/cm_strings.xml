@@ -583,7 +583,6 @@
     <string name="advanced_reboot_summary">Quando desbloqueado, incluir opções no menu de energia para reincializar para recuperação ou bootloader</string>
     <string name="lockpattern_settings_enable_error_path_title">Exibir erro no padrão</string>
     <string name="lockpattern_settings_enable_dots_title">Exibir pontos no padrão</string>
-    <string name="navigation_bar_category">Barra de navegação</string>
     <string name="navigation_ring_title">Atalhos de início rápido</string>
     <string name="navring_target_reset_message">Remover todos atalhos de barra de navegação criados pelo usuário e restaurar para o padrão?</string>
     <string name="navring_target_reset">Atalhos de barra de navegação restaurados para o padrão</string>

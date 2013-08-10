@@ -552,7 +552,6 @@
     <string name="auto_brightness_menu_remove">Видалити</string>
     <string name="advanced_reboot_title">Розширене перезавантаження</string>
     <string name="advanced_reboot_summary">Увімкнути варіанти перезавантаження (recovery та bootloader) в меню \"Параметри пристрою\"</string>
-    <string name="navigation_bar_category">Рядок навігації</string>
     <string name="navigation_ring_title">Ярлики швидкого запуску</string>
     <string name="navring_target_reset_message">Видалити всі налаштовані ярлики та повернутись до типових?</string>
     <string name="navring_target_reset">Ярлики відновлено до типових</string>

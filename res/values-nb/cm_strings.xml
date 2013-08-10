@@ -599,7 +599,6 @@
     <!-- <string name="auto_brightness_help_text">Feel free to translate me!</string>-->
     <string name="advanced_reboot_title">Avansert-omstart</string>
     <string name="advanced_reboot_summary">Når aktivert, inkluderes det en mulighet i på/av-menyen for omstart til recovery eller bootloader.</string>
-    <string name="navigation_bar_category">Navigasjonslinje</string>
     <string name="navigation_ring_title">Navigasjonslinje-snarveier</string>
     <string name="navring_target_reset_message">Slett alle egendefinerte snarveier og tilbakestill til standard?</string>
     <string name="navring_target_reset">Snarveiene ble tilbakestilt til standard</string>

@@ -802,7 +802,6 @@
     <string name="advanced_reboot_summary">Включить варианты перезагрузки (recovery или bootloader) в меню \"Параметры устройства\"</string>
 
     <!-- Navigation bar buttons and shortcuts category title -->
-    <string name="navigation_bar_category">Строка навигации</string>
 
     <!-- Navigation ring shortcuts -->
     <string name="navigation_ring_title">Ярлыки быстрого запуска</string>

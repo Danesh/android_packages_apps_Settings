@@ -646,7 +646,6 @@ Az \"Eltávolítás\" törli a kiválasztott sort.
     <string name="advanced_reboot_summary">Recovery és Bootloader újraindítási mód megjelenítése a kikapcsoló menüben (feloldott kijelzőnél)</string>
     <string name="lockpattern_settings_enable_error_path_title">Hibás minta megjelenítése</string>
     <string name="lockpattern_settings_enable_dots_title">Feloldási pontok megjelenítése</string>
-    <string name="navigation_bar_category">Navigációs sáv</string>
     <string name="navigation_ring_title">Gyorsindítás</string>
     <string name="navring_target_reset_message">Biztosan vissza kívánja állítani alaphelyzetbe a navigációs sáv összes hivatkozását?</string>
     <string name="navring_target_reset">Alapbeállítások visszaállítva</string>

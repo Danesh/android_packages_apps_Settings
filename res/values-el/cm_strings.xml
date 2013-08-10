@@ -634,7 +634,6 @@
     <string name="auto_brightness_sensitivity_veryhigh">Πολύ υψηλή</string>
     <string name="advanced_reboot_title">Προηγμένη επανεκκίνηση</string>
     <string name="advanced_reboot_summary">Όταν είναι ενεργή, περιλαμβάνονται στο power menu οι επιλογές επανεκκίνησης σε λειτουργία recovery ή bootloader</string>
-    <string name="navigation_bar_category">Μπάρα πλοήγησης</string>
     <string name="navigation_ring_title">Συντομεύσεις γρήγορης εκκίνησης</string>
     <string name="navring_target_reset_message">Διαγραφή όλων των συντομεύσεων της μπάρας πλοήγησης και επαναφορά στις προεπιλεγμένες;</string>
     <string name="navring_target_reset">Έγινε επαναφορά των συντομεύσεων της μπάρας πλοήγησης στις προεπιλογές</string>
