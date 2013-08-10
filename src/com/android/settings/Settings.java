@@ -42,6 +42,7 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.IWindowManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -504,6 +505,16 @@ public class Settings extends PreferenceActivity
             } else if (id == R.id.account_add) {
                 if (um.hasUserRestriction(UserManager.DISALLOW_MODIFY_ACCOUNTS)) {
                     target.remove(i);
+                }
+            } else if (id == R.id.navigation_settings) {
+                IWindowManager windowManager = IWindowManager.Stub.asInterface(
+                        ServiceManager.getService(Context.WINDOW_SERVICE));
+                try {
+                    if (!windowManager.hasNavigationBar()) {
+                        target.remove(i);
+                    }
+                } catch (RemoteException e) {
+                    // Do nothing
                 }
             }
 

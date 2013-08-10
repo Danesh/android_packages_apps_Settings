@@ -86,6 +86,13 @@
             android:targetClass="com.tmobile.themechooser.ThemeChooser" />
     </header>
 
+    <!-- Navigation -->
+    <header
+        android:id="@+id/navigation_settings"
+        android:fragment="com.android.settings.cyanogenmod.NavigationSettings"
+        android:icon="@drawable/ic_settings_themes"
+        android:title="@string/navigation_settings_title" />
+
     <!-- System -->
     <header
         android:id="@+id/system_settings"
