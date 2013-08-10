@@ -62,10 +62,10 @@
     <header android:id="@+id/interface_section"
         android:title="@string/header_category_interface" />
 
-    <!-- Launcher -->
+    <!-- Homescreen -->
     <header
-        android:id="@+id/launcher_settings"
-        android:title="@string/launcher_settings_title"
+        android:id="@+id/homescreen_settings"
+        android:title="@string/homescreen_settings_title"
         android:icon="@drawable/ic_settings_cmlauncher" />
 
     <!-- Lock screen -->

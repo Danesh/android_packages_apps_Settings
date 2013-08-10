@@ -129,7 +129,7 @@ public class Settings extends PreferenceActivity
             R.id.about_settings,
             R.id.accessibility_settings,
             R.id.interface_section,
-            R.id.launcher_settings,
+            R.id.homescreen_settings,
             R.id.lock_screen_settings,
             R.id.system_settings
     };
@@ -445,7 +445,7 @@ public class Settings extends PreferenceActivity
             if (id == R.id.operator_settings || id == R.id.manufacturer_settings ||
                     id == R.id.advanced_settings) {
                 Utils.updateHeaderToSpecificActivityFromMetaDataOrRemove(this, target, header);
-            } else if (id == R.id.launcher_settings) {
+            } else if (id == R.id.homescreen_settings) {
                 Intent launcherIntent = new Intent(Intent.ACTION_MAIN);
                 launcherIntent.addCategory(Intent.CATEGORY_HOME);
                 launcherIntent.addCategory(Intent.CATEGORY_DEFAULT);

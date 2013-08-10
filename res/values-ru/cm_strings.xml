@@ -96,7 +96,6 @@
     <string name="header_category_interface">ИНТЕРФЕЙС</string>
 
     <!-- Launcher settings #CM -->
-    <string name="launcher_settings_title">Главный экран</string>
 
     <!-- Themes settings #CM -->
     <string name="themes_settings_title">Темы</string>
