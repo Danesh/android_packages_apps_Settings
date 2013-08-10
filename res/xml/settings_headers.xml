@@ -124,6 +124,12 @@
         android:fragment="com.android.settings.cyanogenmod.ButtonSettings"
         android:title="@string/title_buttons" />
 
+    <!-- Buttons -->
+    <header
+        android:icon="@drawable/ic_settings_display"
+        android:fragment="com.android.settings.cyanogenmod.HeadsetSettings"
+        android:title="@string/headset_category_title" />
+
     <!-- Storage -->
     <header
         android:id="@+id/storage_settings"

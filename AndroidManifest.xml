@@ -1692,6 +1692,8 @@
 
         <activity android:name=".cyanogenmod.ButtonSettings" />
 
+        <activity android:name=".cyanogenmod.HeadsetSettings" />
+
         <activity android:name=".cyanogenmod.ChangeLog" />
 
         <activity android:name=".cyanogenmod.LockscreenInterface" />
